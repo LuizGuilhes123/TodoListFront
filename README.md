@@ -209,7 +209,7 @@ docker-compose up -d
 <img align="center" alt="LuizGuilhes-MYSQL" height="60" width="60"
 src= https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mysql/mysql-original.svg>
 <img align="center" alt="LuizGuilhes-Docker" height="70" width="70" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original.svg">
-<img align="center" alt="LuizGuilhes-Swagger" height="40" width="40" src="https://github.com/LuizGuilhes123/Locadora/assets/101072311/a895137a-8126-4eed-8a5c-9934ed30401b">
+<img align="center" alt="LuizGuilhes-Swagger" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swagger/swagger-original.svg">
 <img align="center" alt="LuizGuilhes-ANGULAR" height="50" width="50" src="https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/angular-icon.svg">
 
 </div>
