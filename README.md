@@ -191,7 +191,7 @@ docker run -d -p 4200:4200 --name backend LuizGuilhes123/LuizGuilhes123/tarefafr
 __Clone o repositório do projeto__
 
 ~~~~~~Bash
-git clone https://github.com/LuizGuilhes123/Task.git
+git clone https://github.com/LuizGuilhes123/TodoListJava.git
 ~~~~~~
 
 - Com o docker aberto, suba o docker-compose
