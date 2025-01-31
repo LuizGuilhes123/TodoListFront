@@ -1,7 +1,7 @@
-<h1> Tarefas </h1>
+<h1> Task </h1>
 
 <h3 align="center">
-    Projeto Tarefas 📝
+    Projeto Task 📝
     <br>
     <br><br>
     <p align="center">
@@ -19,7 +19,7 @@
 
 <h3 id="sobre"> Sobre </h3>
 
-Este projeto é uma aplicação Full Stack, desenvolvida utilizando Java com Spring Boot 3+ no backend e Angular no frontend. O objetivo é oferecer uma interface prática e moderna, permitindo aos usuários criar, editar, excluir e reorganizar tarefas de forma dinâmica, usando funcionalidades de "drag and drop".
+Este projeto é uma aplicação Full Stack, desenvolvida utilizando Java com Spring Boot 3+ no backend e Angular no frontend. O objetivo é oferecer uma interface prática e moderna, permitindo aos usuários criar, editar, excluir e reorganizar Task de forma dinâmica, usando funcionalidades de "drag and drop".
 
 https://github.com/user-attachments/assets/62a91ef4-e03d-4717-8de3-a7e290a70e09
 
@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/62a91ef4-e03d-4717-8de3-a7e290a70e09
 
 <h3 id="back"> Backend 🔧 </h3>
 
-<h2> Projeto lista de tarefas 🧱 </h2>
+<h2> Projeto lista de Task 🧱 </h2>
 
 ![Screenshot_53](https://github.com/user-attachments/assets/c1f79c9e-6ac4-433f-b73f-7ad61da086dc)
 
@@ -39,31 +39,31 @@ https://github.com/user-attachments/assets/62a91ef4-e03d-4717-8de3-a7e290a70e09
 
 __Usuário__ 🤓
 
-__Criando conta__: Os usuários podem se cadastrar no Tarefas.
+__Criando conta__: Os usuários podem se cadastrar no Task.
 
 __Notificação__: Os usuários podem habilitar a opção de receber notificações ao criar uma tarefa.
 
 __Foto__: Os usuários podem fazer upload de uma foto para usar em seu perfil.
 
-__Tarefas__ 📝
+__Task__ 📝
 
-__Criando Tarefas__: Os usuários podem criar novas tarefas com facilidade.
+__Criando Task__: Os usuários podem criar novas Task com facilidade.
 
 > __Observação: Não é possível criar uma tarefa com um nome já existente.__
 
-__Organizando suas tarefas__: Após criar as tarefas, os usuários podem organizá-las de duas maneiras:
+__Organizando suas Task__: Após criar as Task, os usuários podem organizá-las de duas maneiras:
 
  - Arrastando e soltando a tarefa na posição desejada (funcionalidade de "drag and drop").
 
- - Utilizando setas para mover as tarefas para cima ou para baixo na lista.
+ - Utilizando setas para mover as Task para cima ou para baixo na lista.
 
- - Acessando o menu lateral, onde é possível buscar as suas tarefas criadas no dia, na semana, no mês e as favoritas.
+ - Acessando o menu lateral, onde é possível buscar as suas Task criadas no dia, na semana, no mês e as favoritas.
 
-__Editando tarefas__: As tarefas criadas podem ser editadas pelos usuários para atualizar informações.
+__Editando Task__: As Task criadas podem ser editadas pelos usuários para atualizar informações.
 
 > __Observação: Não é possível editar uma tarefa para utilizar um nome já existente.__
 
-__Excluindo tarefas__: Os usuários têm a opção de excluir tarefas criadas, mantendo a lista organizada e relevante.
+__Excluindo Task__: Os usuários têm a opção de excluir Task criadas, mantendo a lista organizada e relevante.
 
 
 <hr>
@@ -78,7 +78,7 @@ https://github.com/user-attachments/assets/711810fe-4332-4e3a-9fbd-d1ae67ab91a1
 
 __Acesse a documentação do projeto:__
 
- - __Acesse:__ https://deploytarefas.onrender.com/swagger-ui/index.html#/
+ - __Acesse:__ https://deployTask.onrender.com/swagger-ui/index.html#/
 
 > Quando subir a aplicação acesse usando esse link
 
@@ -103,7 +103,7 @@ __Pré-requisitos:__ Java 17  & (Docker opcional)
 __Clone o repositório do projeto__
 
 ~~~~~~Bash
-git clone https://github.com/LuizGuilhes123/Tarefas.git
+git clone https://github.com/LuizGuilhes123/Task.git
 ~~~~~~
 
 ### Configurando o projeto local 🏠
@@ -113,14 +113,14 @@ __Configurando o ambiente:__
 - Navegue até o diretório do projeto
 
 ~~~~~~Bash
-cd tarefasBackend
+cd TaskBackend
 ~~~~~~
 
 - Acesse o diretório do projeto, utilize o comando `cd` e o nome do diretório para instalar todas as dependências necessárias:
 
 ~~~~~~Bash
 # exemplo
-cd tarefasBackend
+cd TaskBackend
 
 mvn clean package -DskipTest=true
 ~~~~~~
@@ -129,7 +129,7 @@ mvn clean package -DskipTest=true
 
 ~~~~Bash
 
-cd tarefasBackend
+cd TaskBackend
 
 mvn spring-boot:run
 ~~~~
@@ -155,7 +155,7 @@ __Executar__
 - Navegue até a pasta do projeto front-end:
 
 ~~~~~~Bash
-cd tarefasFrontend
+cd TaskFrontend
 ~~~~~~
 
 __Instale as dependências do projeto:__
@@ -191,7 +191,7 @@ docker run -d -p 4200:4200 --name backend LuizGuilhes123/LuizGuilhes123/tarefafr
 __Clone o repositório do projeto__
 
 ~~~~~~Bash
-git clone https://github.com/LuizGuilhes123/Tarefas.git
+git clone https://github.com/LuizGuilhes123/Task.git
 ~~~~~~
 
 - Com o docker aberto, suba o docker-compose
