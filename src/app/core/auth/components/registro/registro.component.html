@@ -1,0 +1,38 @@
+<h1 class="text-2xl font-semibold mb-4">Registro</h1>
+
+<form #f="ngForm">
+
+  <div class="mb-4">
+    <label for="username" class="block text-sm font-medium text-gray-700">Nome</label>
+    <input type="text" id="username" name="username" required maxlength="30" [(ngModel)]="usuario.name" class="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300">
+    <div *ngIf="(f.controls['username']?.invalid && f.controls['username']?.touched) || f.controls['username']?.dirty">
+      <span class="text-red-600 font-font-secundaria font-bold text-sm" *ngIf="f.controls['username']?.errors?.['required']">O campo Nome deve ser preenchido.</span>
+      <span class="text-red-600 font-font-secundaria font-bold text-sm" *ngIf="f.controls['username']?.errors?.['maxlength']">O campo Nome deve ter no máximo 30 caracteres.</span>
+    </div>
+  </div>
+  
+  <div class="mb-4">
+    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+    <input type="text" id="email" appEmail name="email" required maxlength="60" [(ngModel)]="usuario.email" class="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300">
+    <div class="flex flex-col items-center" *ngIf="(f.controls['email']?.invalid && f.controls['email']?.touched) || f.controls['email']?.dirty">
+      <span class="text-red-600 font-font-secundaria font-bold text-sm text-left w-full" *ngIf="f.controls['email']?.errors?.['required']">O campo Email deve ser preenchido.</span>
+      <span class="text-red-600 font-font-secundaria font-bold text-sm text-left w-full" *ngIf="f.controls['email']?.errors?.['invalidEmail']">O campo Email deve ser um endereço de email válido.</span>
+    </div>
+  </div>
+  
+  <div class="mb-4">
+    <label for="senha" class="block text-sm font-medium text-gray-700">Senha</label>
+    <input type="senha" id="senha" name="senha" required axlength="35" [(ngModel)]="usuario.senha" class="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300">
+    <div *ngIf="(f.controls['senha']?.invalid && f.controls['senha']?.touched) || f.controls['senha']?.dirty">
+      <span class="text-red-600 font-font-secundaria font-bold text-sm" *ngIf="f.controls['senha']?.errors?.['required']">O campo Senha deve ser preenchido.</span>
+    </div>
+  </div>
+  
+  <div>
+    <button type="submit" (click)="criar()" [disabled]="f.invalid" class="disabled:bg-gray-400 disabled:cursor-not-allowed bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-md py-2 px-4 w-full">Criar conta</button>
+  </div>
+</form>
+
+<div class="mt-6 text-blue-500 text-center">
+  <p>Você já tem uma conta? <a (click)="toggleComponent()" class="hover:underline cursor-pointer">Faça o login clicando aki</a></p>
+</div>

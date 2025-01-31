@@ -1,0 +1,11 @@
+.stroke-yellow {
+  stroke: yellow;
+}
+
+.stroke-black {
+  stroke: black;
+}
+
+p {
+  word-break: break-word !important;
+}
